@@ -1,5 +1,11 @@
 # ItemView-Animation
 Several type of Layout Animation using Recylerview,Listview and Gridview.
+# Support View
+  
+  RecyclerView,
+  ListView,
+  GridView
+
 
 ## Demo
 ![ItemView-Animation](ezgif.com-video-to-gif.gif)
