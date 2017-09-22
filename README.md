@@ -1,5 +1,7 @@
 # ItemView-Animation
 Several type of Layout Animation using Recylerview,Listview and Gridview.
+# Mobile Device Support
+  Supports all Android Api Version
 # Support View
   
   RecyclerView,
