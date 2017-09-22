@@ -5,21 +5,31 @@ Several type of Layout Animation using Recylerview,Listview and Gridview.
 ![ItemView-Animation](ezgif.com-video-to-gif.gif)
 
  ## Usage
-   ### Step 1 : Add "ItemView-Animation" to your Android project.
-   1- Open your project in Android Studio.
-   2- Download the library
-       (using Git Link ---> https://github.com/yash786agg/ItemView-Animation.git)
+ ### Step 1 : Add "ItemView-Animation" to your Android project.
+ 1- Open your project in Android Studio.
+   
+ 2- Download the library
+   
+ (using Git Link ---> https://github.com/yash786agg/ItemView-Animation.git)
                                         or 
-       (Download a zip File archive to unzip)
-        3- Create a folder "reclv_animation" in your project.
-   4- Copy and paste the Code to your reclv_animation folder
-   5- On the root of your project directory create/modify the settings.gradle file. It should contain something like the following:
+ (Download a zip File archive to unzip)
+   
+ 3- Create a folder "reclv_animation" in your project.
+   
+ 4- Copy and paste the Code to your reclv_animation folder
+   
+   
+ 5- On the root of your project directory create/modify the settings.gradle file. It should contain something like the   following:
 
-    include ':app',':reclv_animation'
+include ':app',':reclv_animation'
     
-     6- Go to File > Project Structure > Modules.
+   
+  6- Go to File > Project Structure > Modules.
+   
    7- App > Dependencies.
+   
    8- Click on the more on the left green "+" button > Module dependency.
+   
    9- Select "reclv_animation Library".
    
    ### Step 2 : Add Code to your Project
