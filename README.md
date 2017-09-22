@@ -40,28 +40,28 @@ include ':app',':reclv_animation'
    
    ### Step 2 : Add Code to your Project
    
-   For Anmation like Slide from Bottom:
+   For Animation like Slide from Bottom:
    
    LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(MainActivity.this,getResources().getIdentifier("layout_animation_from_bottom","anim",getPackageName()));
    your_recyclerview.setLayoutAnimation(animation);
    your_adapter.notifyDataSetChanged();
    your_recyclerview.scheduleLayoutAnimation(); 
         
-   For Anmation like Slide from Top:
+   For Animation like Slide from Top:
    
    LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(MainActivity.this,getResources().getIdentifier("layout_animation_fall_down","anim",getPackageName()));
    your_recyclerview.setLayoutAnimation(animation);
    your_adapter.notifyDataSetChanged();
    your_recyclerview.scheduleLayoutAnimation(); 
         
-   For Anmation like Slide from Right:
+   For Animation like Slide from Right:
    
    LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(MainActivity.this,getResources().getIdentifier("layout_animation_from_right","anim",getPackageName()));
    your_recyclerview.setLayoutAnimation(animation);
    your_adapter.notifyDataSetChanged();
    your_recyclerview.scheduleLayoutAnimation();     
         
-   For Anmation like Slide from left:
+   For Animation like Slide from left:
    
    LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(MainActivity.this,getResources().getIdentifier("layout_animation_from_left","anim",getPackageName()));
    your_recyclerview.setLayoutAnimation(animation);
